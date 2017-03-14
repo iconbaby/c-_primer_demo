@@ -27,7 +27,9 @@ int main()
 	//numOfPunct();
 
 	//将字符串改写成大写
-	string2Upper();
-
+	//string2Upper();
+	
+	//遍历vecotor
+	test_vector();
 
 }
