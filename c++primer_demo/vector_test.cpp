@@ -30,16 +30,43 @@ int test_vector()
 	//	std::cout << i << std::endl;
 	//}
 
-	vector<unsigned> scores(11, 0);
-	unsigned score;
-	while (std::cin >> score) {
-		if (score <= 100) {
-			++scores[score / 10];
-		}
+	//vector<unsigned> scores(11, 0);
+	//unsigned score;
+	//while (std::cin >> score) {
+	//	if (score <= 100) {
+	//		++scores[score / 10];
+	//	}
+	//}
+
+	//for (auto i : scores) {
+	//	std::cout << i;
+	//}
+
+
+	//string word;
+	//vector<string> line;
+	//while (std::cin >> word) {
+	//	line.push_back(word);
+	//}
+	//for (auto &i : line) {
+	//	for (auto &j : i) {
+	//		j = toupper(j);
+	//	}
+	//	std::cout << i << std::endl;
+	//}
+
+	//vector<int> vec(10, 42);
+	//vector<int> vec{ 10,10 };
+	//vector<string> vec(10, "42");
+
+	vector<int> nums;
+	int a;
+	while (std::cin >> a) {
+		nums.push_back(a);
 	}
 
-	for (auto i : scores) {
-		std::cout << i;
+	for (int i = 0; i != nums.size()/2; ++i) {
+		std::cout << nums[i] + nums[nums.size() - 1 - i] << std::endl;
 	}
 	return 0;
 }
