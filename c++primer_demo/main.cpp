@@ -19,15 +19,16 @@ int main()
 	//		break;
 	//	}
 	//}
-	
+
 	//比较两个字符串的长度
 	//compare_string();
-	
+
 	//读出每一行的标点符号个数
 	//numOfPunct();
 
 	//将字符串改写成大写
-	string2Upper();
+	//string2Upper();
 
-
+	//将第一个单词大写
+	first2Upper();
 }

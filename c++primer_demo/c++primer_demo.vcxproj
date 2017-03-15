@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="first2Upper.cpp" />
     <ClCompile Include="is_punct.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="string2Upper.cpp" />
