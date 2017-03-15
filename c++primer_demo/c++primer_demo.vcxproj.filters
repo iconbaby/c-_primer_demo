@@ -30,6 +30,9 @@
     <ClCompile Include="first2Upper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="vector_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++_primer.h">
