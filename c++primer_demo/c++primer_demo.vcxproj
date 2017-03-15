@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="first2Upper.cpp" />
     <ClCompile Include="is_punct.cpp" />
+    <ClCompile Include="iterator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="string2Upper.cpp" />
     <ClCompile Include="string_test.cpp" />
