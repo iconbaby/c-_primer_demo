@@ -59,14 +59,44 @@ int test_vector()
 	//vector<int> vec{ 10,10 };
 	//vector<string> vec(10, "42");
 
-	vector<int> nums;
-	int a;
-	while (std::cin >> a) {
-		nums.push_back(a);
-	}
+	//vector<int> nums;
+	//int a;
+	//while (std::cin >> a) {
+	//	nums.push_back(a);
+	//}
 
-	for (int i = 0; i != nums.size()/2; ++i) {
-		std::cout << nums[i] + nums[nums.size() - 1 - i] << std::endl;
+	//for (int i = 0; i != nums.size()/2; ++i) {
+	//	std::cout << nums[i] + nums[nums.size() - 1 - i] << std::endl;
+	//}
+	//vector<string> line;
+	//string word;
+	//while (std::cin >> word) {
+	//	line.push_back(word);
+	//}
+
+	//for (auto i : line) {
+	//	std::cout << i << std::endl;
+	//}
+	//for (auto a = line.begin(); a != line.end(); ++a) {
+	//	std::cout << *a << std::endl;
+	//}
+	//return 0;
+	//string a[]{"12","asdf"};
+	//for (auto i : a) {
+	//	std::cout << i << std::endl;
+	//}
+
+
+	int ia[] = {0,1,2,3,4,5,6,7,8,9};
+
+	//int *b = &ia[0];
+	//auto ia2(ia);
+	//std::cout << *b << std::endl;
+	//std::cout << *ia2 << std::endl;
+	int *e = &ia[10];
+	for (int *a = ia; a != e; ++a) {
+		std::cout << *a << std::endl;
 	}
+	
 	return 0;
 }

@@ -30,12 +30,12 @@ int main()
 	//string2Upper();
 
 	//遍历vecotor
-	//test_vector();
+	test_vector();
 
 
 	//将第一个单词大写
 	//first2Upper();
 
 	//测试iterator
-	test_iterator();
+	//test_iterator();
 }
