@@ -38,4 +38,12 @@ int main()
 
 	//²âÊÔiterator
 	//test_iterator();
+
+
+	//²âÊÔarray
+	//array_test();
+
+	//²âÊÔcstring
+	test_ctring();
+
 }
