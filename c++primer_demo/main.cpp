@@ -37,5 +37,11 @@ int main()
 	//first2Upper();
 
 	//²âÊÔiterator
-	test_iterator();
+	//test_iterator();
+
+	//²âÊÔarray
+	//array_test();
+
+	//²âÊÔcstring
+	test_ctring();
 }
