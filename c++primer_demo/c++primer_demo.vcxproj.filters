@@ -10,6 +10,7 @@
     <ClCompile Include="iterator.cpp" />
     <ClCompile Include="array_test.cpp" />
     <ClCompile Include="cstring_test.cpp" />
+    <ClCompile Include="switch_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++_primer.h" />
