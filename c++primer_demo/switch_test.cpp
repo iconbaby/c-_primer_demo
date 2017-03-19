@@ -10,4 +10,5 @@ int test_switch() {
 			break;
 		}
 	}
+	return 0;
 }

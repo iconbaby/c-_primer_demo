@@ -11,6 +11,7 @@
     <ClCompile Include="array_test.cpp" />
     <ClCompile Include="cstring_test.cpp" />
     <ClCompile Include="switch_test.cpp" />
+    <ClCompile Include="reference_string.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++_primer.h" />

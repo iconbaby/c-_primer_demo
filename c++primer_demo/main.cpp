@@ -30,7 +30,7 @@ int main()
 	//string2Upper();
 
 	//遍历vecotor
-	test_vector();
+	//test_vector();
 
 
 	//将第一个单词大写
@@ -44,6 +44,31 @@ int main()
 	//array_test();
 
 	//测试cstring
-	test_ctring();
+	//test_ctring();
 
+	//测试指针型参
+	//string s;
+	//string n;
+	//while (std::cin >> s >> n) {
+	//	std::cout << compare_string_size(s, n) << std::endl;
+	//}
+	string s = "assdfsdf";
+	string::size_type ctr = 0;
+	std::cout << find_char(s, 'd', ctr) << std::endl;
+
+}
+
+string::size_type find_char(const string &s, char c, string::size_type &occurs) {
+	auto ret = s.size();
+	occurs = 0;
+
+	for (decltype(ret) i = 0; i != s.size(); ++i) {
+		if (s[i] == c) {
+			if (ret == s.size()) {
+				ret = i;
+			}
+			++occurs;
+		}
+	}
+	return ret;
 }
