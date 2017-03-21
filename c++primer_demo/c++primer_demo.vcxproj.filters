@@ -12,8 +12,10 @@
     <ClCompile Include="cstring_test.cpp" />
     <ClCompile Include="switch_test.cpp" />
     <ClCompile Include="reference_string.cpp" />
+    <ClCompile Include="Sales_data.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++_primer.h" />
+    <ClInclude Include="Sales_data.h" />
   </ItemGroup>
 </Project>

@@ -22,4 +22,5 @@ extern int test_ctring();
 extern bool compare_string_size(const string &i, const string &u);
 
 extern string::size_type find_char(const string &s, char c, string::size_type &occurs);
+
 #endif // !PRIMER_H

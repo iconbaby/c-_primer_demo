@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include"c++_primer.h"
+#include<initializer_list>
 using std::string;
 int main()
 {
@@ -71,4 +72,18 @@ string::size_type find_char(const string &s, char c, string::size_type &occurs) 
 		}
 	}
 	return ret;
+}
+
+void print(const int *beg, const int *end) {
+	while (beg != end) {
+		std::cout << *beg++ << std::endl;
+
+	}
+}
+
+void error_msg(std::initializer_list<string> il){
+	for (auto beg = il.begin(); beg != il.end(); ++beg) {
+		std::cout << *beg << " ";
+		std::cout << std::endl;
+	}
 }

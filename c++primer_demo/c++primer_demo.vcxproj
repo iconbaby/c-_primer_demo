@@ -146,6 +146,7 @@
     <ClCompile Include="iterator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reference_string.cpp" />
+    <ClCompile Include="Sales_data.cpp" />
     <ClCompile Include="string2Upper.cpp" />
     <ClCompile Include="string_test.cpp" />
     <ClCompile Include="switch_test.cpp" />
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++_primer.h" />
+    <ClInclude Include="Sales_data.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
