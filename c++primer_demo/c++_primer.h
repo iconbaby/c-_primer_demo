@@ -23,4 +23,9 @@ extern bool compare_string_size(const string &i, const string &u);
 
 extern string::size_type find_char(const string &s, char c, string::size_type &occurs);
 
+extern int test_function(int &i);
+
+extern bool  test_hasUpper(const string &i);
+
+extern int upper2lower(string &str);
 #endif // !PRIMER_H

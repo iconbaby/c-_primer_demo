@@ -53,9 +53,28 @@ int main()
 	//while (std::cin >> s >> n) {
 	//	std::cout << compare_string_size(s, n) << std::endl;
 	//}
-	string s = "assdfsdf";
-	string::size_type ctr = 0;
-	std::cout << find_char(s, 'd', ctr) << std::endl;
+	//string s = "assdfsdf";
+	//string::size_type ctr = 0;
+	//std::cout << find_char(s, 'd', ctr) << std::endl;
+
+
+	//º¯Êı
+	//int i = 23;
+	//test_function(i);
+	//std::cout << i << std::endl;
+	
+	//isUpper;
+	//string s;
+	//while (std::cin >> s) {
+	//	std::cout << test_hasUpper(s) << std::endl;
+	//}
+
+	//tolower
+	string s;
+	while (std::cin >> s) {
+		upper2lower(s);
+		std::cout << s << std::endl;
+	}
 
 }
 
