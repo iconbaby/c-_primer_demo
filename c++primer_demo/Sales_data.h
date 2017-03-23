@@ -1,6 +1,7 @@
 #ifndef SALES_DATA_H
 #define SALES_DATA_H
-struct Sales_data {
+class Sales_data {
+public:
 	std::string isbn() const { return bookNo; }
 	Sales_data& combine(const Sales_data&);
 	double avg_price() const;

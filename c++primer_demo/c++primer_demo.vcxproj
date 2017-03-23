@@ -151,6 +151,7 @@
     <ClCompile Include="string_test.cpp" />
     <ClCompile Include="switch_test.cpp" />
     <ClCompile Include="test_function.cpp" />
+    <ClCompile Include="test_initializer_list.cpp" />
     <ClCompile Include="vector_test.cpp" />
   </ItemGroup>
   <ItemGroup>

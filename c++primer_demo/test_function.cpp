@@ -30,7 +30,7 @@ int upper2lower(string &str) {
 int test_ventor() {
 	int i = 0, j[2] = { 0,1 };
 	int sd[12];
-
+	return 0;
 }
 
 

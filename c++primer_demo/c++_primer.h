@@ -28,4 +28,6 @@ extern int test_function(int &i);
 extern bool  test_hasUpper(const string &i);
 
 extern int upper2lower(string &str);
+
+extern const string &mainp();
 #endif // !PRIMER_H

@@ -3,6 +3,7 @@
 #include"c++_primer.h"
 #include<initializer_list>
 using std::string;
+double factorial(int val);
 int main()
 {
 	//string line;
@@ -70,12 +71,16 @@ int main()
 	//}
 
 	//tolower
-	string s;
-	while (std::cin >> s) {
-		upper2lower(s);
-		std::cout << s << std::endl;
-	}
+	//string s;
+	//while (std::cin >> s) {
+	//	upper2lower(s);
+	//	std::cout << s << std::endl;
+	//}
 
+	//test return 
+	//std::cout << mainp() << std::endl;
+	
+	std::cout << factorial(100) << std::endl;
 }
 
 string::size_type find_char(const string &s, char c, string::size_type &occurs) {
@@ -105,4 +110,10 @@ void error_msg(std::initializer_list<string> il){
 		std::cout << *beg << " ";
 		std::cout << std::endl;
 	}
+}
+
+double factorial(int val) {
+	if (val > 1) 
+		return factorial(val - 1) *val;
+	return 1;
 }
